@@ -29,11 +29,6 @@ void init()
 			give_powerup = false;
 		}
 	});
-
-	while (true)
-	{
-		Sleep(1000);
-	}
 }
 
 DWORD WINAPI OnAttachImpl(LPVOID lpParameter)
